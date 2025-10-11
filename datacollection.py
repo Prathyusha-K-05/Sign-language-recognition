@@ -10,7 +10,7 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = "/home/arvind/Documents/texttospeech/Sign-Language-detection/Data/Thank you"
+folder = "/home/arvind/Documents/texttospeech/Sign-language-recognition/Data/Y"
 
 while True:
     success, img = cap.read()

@@ -10,9 +10,9 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 print(f"Script directory: {script_dir}")
 
-# Define model paths - CORRECTED folder name
-model_path = os.path.join(script_dir, 'converted_keras', 'keras_model.h5')
-labels_path = os.path.join(script_dir, 'converted_keras', 'labels.txt')
+# Define model paths - CORRECTED folder name (note: folder has a trailing space)
+model_path = os.path.join(script_dir, 'converted_keras ', 'keras_model.h5')
+labels_path = os.path.join(script_dir, 'converted_keras ', 'labels.txt')
 
 print(f"Looking for model at: {model_path}")
 print(f"Looking for labels at: {labels_path}")
